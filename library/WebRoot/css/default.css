@@ -1,0 +1,77 @@
+/* 基本样式 */
+body {
+	background:#ffffff;/*背景颜色*/
+	margin:15;/*四个边的外延边距*/
+}
+body, table, th, td, input, select, textarea {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+/* 超链接 */
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+/*点击超链接后样式*/
+a:link, a:visited {
+	color:#0044DD;
+	text-decoration:none;
+}
+/*鼠标停在超链接上和点击超链接的样式*/
+a:hover, a:active {
+	color:#FF5500;
+	text-decoration:underline;
+}
+
+/* 表格 */
+table.default {
+	border:1px solid #3366CC;
+	border-collapse:collapse;/**/
+}
+table.default td{
+	padding:2 5 2 5;
+	height:26px;
+	border:1px solid #3366CC;
+	background-color:#ffffff;
+}
+
+
+table.default tr.title td {
+	font-weight:bold;
+	text-align:center;
+	background:#99CCFF;
+	color:f0f0f0;/*字体颜色*/
+	border:1px solid #3366CC;
+	white-space:nowrap;
+	height:26px;
+}
+table.default td.item {
+	font-weight:bold;
+	color:#333333;
+	text-align:right;/*水平对齐方式*/
+	vertical-align:top;/*垂直对齐方式*/
+	padding-top:4px;
+}
+
+/* 按钮 */
+.btn {
+	background: url("../images/btn_bg.gif");
+	background-repeat:repeat-x;
+	border: 3px double #333333;
+	border-color: #909090;
+	color: #333333;
+	padding:0 2;
+	font-size: 12px;
+	height:23px;
+	cursor:hand;
+	margin:3px;
+}
+.headline {
+	font-weight:bold;
+	text-align:center;
+	
+	color:000000;/*字体颜色*/
+	
+	white-space:nowrap;
+	height:26px;
+}
